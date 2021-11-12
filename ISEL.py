@@ -4,7 +4,7 @@ import numpy
 
 
 class ISEL:
-    COM = '/dev/ttyUSB0'
+    COM = '/dev/ttyUSB0' # this is used for linux - RevPi
     baud = 19200
     data_bits = 8
     timeout = 1
